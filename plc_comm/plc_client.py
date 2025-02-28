@@ -2,12 +2,19 @@
 
 def set_valve(on: bool):
     """
-    Dummy function to simulate PLC valve control
+    Stub function to simulate PLC valve control
     """
-    print(f"[PLC] Valve set to: {on}")
+    print(f"[PLC STUB] Valve set to: {on}")
 
-def read_sensor() -> float:
+def read_pressure() -> float:
     """
-    Simulate reading a sensor value
+    Stub to simulate reading pressure sensor
     """
-    return 4.5  # e.g. 4.5 bar
+    # Pretend we have 4.2 bar
+    return 4.2
+
+def move_conveyor(speed: float):
+    """
+    Stub to simulate conveyor motor
+    """
+    print(f"[PLC STUB] Conveyor speed set to {speed} m/s")
