@@ -1,12 +1,12 @@
 # backend/app.py
 from fastapi import FastAPI, UploadFile, File
-from ai_module.inference import classify_image
+from inference import classify_image
 
 app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message":"Welcome to clothes classifier (4 classes)"}
+    return {"msg": "Clothes Classifier (Folder-based, EfficientNet-B3)"}
 
 @app.post("/classify")
 async def classify_item(file: UploadFile = File(...)):

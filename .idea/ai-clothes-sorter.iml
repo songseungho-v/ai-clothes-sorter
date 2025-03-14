@@ -5,6 +5,35 @@
       <sourceFolder url="file://$MODULE_DIR$/ai_module" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ai_module/train" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/backend" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/가디건" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/맨투맨" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/면바지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/반바지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/반팔셔츠" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/반팔티" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/블라우스" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/셔츠" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/스웨터" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/원피스" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/청바지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/train/후드티" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/가디건" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/맨투맨" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/면바지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/반바지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/반팔셔츠" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/반팔티" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/블라우스" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/셔츠" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/스웨터" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/원피스" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/청바지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data/val/후드티" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dataset" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dataset/images" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plc_comm" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ui" isTestSource="false" />
