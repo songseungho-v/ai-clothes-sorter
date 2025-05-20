@@ -6,9 +6,11 @@ from PIL import Image
 from torchvision import models
 import torch.nn as nn
 import torchvision.transforms as T
+import time
 
 model = None
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+print(f"[INFO] Training on device: {device}")
 loaded_classes = None
 
 infer_transform = T.Compose([
@@ -32,16 +34,21 @@ def load_model_once():
         net.to(device)
         model = net
 
+
 def classify_image(image_bytes: bytes):
     load_model_once()
-
     img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
     tensor = infer_transform(img).unsqueeze(0).to(device)
 
+    start = time.time()  # 측정 시작
     with torch.no_grad():
         outputs = model(tensor)
-        probs = torch.softmax(outputs, dim=1)
-        top_prob, top_idx = probs.max(dim=1)
+    inference_time = (time.time() - start) * 1000  # ms 단위
+
+    probs = torch.softmax(outputs, dim=1)
+    top_prob, top_idx = probs.max(dim=1)
+
+    print(f"Inference time: {inference_time:.2f} ms")
 
     label_idx = top_idx.item()
     label_str = loaded_classes[label_idx]

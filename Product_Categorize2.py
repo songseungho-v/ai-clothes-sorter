@@ -3,8 +3,8 @@ import shutil
 import re
 
 # ✅ 원본 폴더 및 저장할 폴더 경로 설정
-source_folder = "data/v1"
-target_root_folder = "categorized_images"
+source_folder = "raw_data/vintageXecond"
+target_root_folder = "categorized_images2"
 uncategorized_folder = os.path.join(target_root_folder, "미분류")
 
 # ✅ 폴더 생성

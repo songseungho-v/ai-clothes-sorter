@@ -35,26 +35,37 @@
       <sourceFolder url="file://$MODULE_DIR$/dataset" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/dataset/images" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plc_comm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/가디건" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/긴팔티" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/데님반팔셔츠" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/맨투맨" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/면바지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/반바지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/반팔셔츠" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/반팔티" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/블라우스" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/셔츠" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/스웨터" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/여자여름니트" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/원피스" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/조끼스웨터" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/중복된이미지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/중복제거완료" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/청바지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raw_data/중복제거Image/후드티" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ui" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ui/node_modules" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ui/public" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ai_module/train/path" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ai_module/train/path/to" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-  <component name="PyNamespacePackagesService">
-    <option name="namespacePackageFolders">
-      <list>
-        <option value="$MODULE_DIR$/ai_module" />
-        <option value="$MODULE_DIR$/backend" />
-        <option value="$MODULE_DIR$/plc_comm" />
-        <option value="$MODULE_DIR$/tests" />
-        <option value="$MODULE_DIR$/ui" />
-      </list>
-    </option>
   </component>
 </module>
