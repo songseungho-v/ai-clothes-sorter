@@ -2,10 +2,12 @@ import cv2
 import numpy as np
 import paho.mqtt.client as mqtt
 import queue
+import base64
+import json
 
 # 설정
 DEVICE_ID = "raspi-01"
-MQTT_BROKER = "172.30.1.21"  # 서버 자신의 IP or 0.0.0.0
+MQTT_BROKER = "172.30.1.21"
 MQTT_PORT = 1883
 MQTT_TOPIC = f"camera/frame/{DEVICE_ID}"
 # 프레임 수신 큐
@@ -14,9 +16,16 @@ frame_queue = queue.Queue(maxsize=1)
 
 # MQTT 메시지 수신 콜백
 def on_message(client, userdata, msg):
+    data = json.loads(msg.payload.decode())
+
+    #거리값
+    distance = data.get("distance")
+    print(f"거리 수신 : {distance}cm")
+    #base64 -> jpeg -> queue
+    b64_jpeg = data.get("frame")
     if frame_queue.full():
         frame_queue.get_nowait()
-    frame_queue.put_nowait(msg.payload)
+    frame_queue.put_nowait(base64.b64decode(b64_jpeg))
 
 
 # MQTT 초기화
