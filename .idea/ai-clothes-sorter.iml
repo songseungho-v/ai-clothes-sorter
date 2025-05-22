@@ -62,6 +62,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ui/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ai_module/train/path" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ai_module/train/path/to" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ai_pusher" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
