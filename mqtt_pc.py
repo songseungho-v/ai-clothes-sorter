@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 import time
 
-MQTT_BROKER = "192.168.0.25"  # 라즈베리파이 IP 주소로 변경
+MQTT_BROKER = "192.168.0.98"  # 라즈베리파이 IP 주소로 변경
 MQTT_TOPIC_PUB = "from/pc"
 MQTT_TOPIC_SUB = "from/pi"
 

@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import queue
 
-MQTT_BROKER = "172.30.1.21"  # 라즈베리파이 IP로 변경
+MQTT_BROKER = "172.30.1.98"  # 라즈베리파이 IP로 변경
 MQTT_TOPIC_FRAME = "camera/frame"
 
 frame_queue = queue.Queue(maxsize=1)
